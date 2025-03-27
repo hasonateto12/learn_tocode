@@ -1,10 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="UTF-8" />
+    <title>Example Code</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        pre {
+            background-color: #1e1e1e;
+            color: #00ffd5;
+            padding: 20px;
+            border-radius: 8px;
+            overflow-x: auto;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        .example {
+            margin-bottom: 50px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .example h3 {
+            color: #00ffd5;
+        }
+        .example p {
+            margin-top: 10px;
+            line-height: 1.6;
+        }
+    </style>
 </head>
 <body>
+<header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="languages.html">Languages</a>
+        <a href="examples.html">Example Code</a>
+        <a href="exercises.html">Exercises</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
 
+<main class="section dark">
+    <h2 style="text-align: center;">HTML, CSS & JavaScript Examples</h2>
+
+    <div class="example" id="html-example">
+        <h3>🔧 HTML Example</h3>
+        <pre><code>&lt;h1&gt;Hello World&lt;/h1&gt;
+&lt;p&gt;This is a paragraph.&lt;/p&gt;</code></pre>
+        <p><strong>Explanation:</strong> This shows how to use the <code>&lt;h1&gt;</code> tag to create a heading and <code>&lt;p&gt;</code> to add a paragraph. These are the most basic HTML elements for building content.</p>
+    </div>
+
+    <div class="example" id="css-example">
+        <h3>🎨 CSS Example</h3>
+        <pre><code>&lt;style&gt;
+h1 {
+  color: blue;
+}
+p {
+  font-style: italic;
+}
+&lt;/style&gt;
+
+&lt;h1&gt;Styled Heading&lt;/h1&gt;
+&lt;p&gt;This text is italic.&lt;/p&gt;</code></pre>
+        <p><strong>Explanation:</strong> This example adds internal CSS. The heading becomes blue, and the paragraph is styled with italic font. These styles are written inside a <code>&lt;style&gt;</code> block inside the HTML.</p>
+    </div>
+
+    <div class="example" id="js-example">
+        <h3>⚡ JavaScript Example</h3>
+        <pre><code>&lt;button onclick="alert('Hello!')"&gt;Click Me&lt;/button&gt;</code></pre>
+        <p><strong>Explanation:</strong> This JavaScript example creates a button that shows a popup message when clicked. It uses the <code>alert()</code> function, triggered by the <code>onclick</code> attribute.</p>
+    </div>
+</main>
 </body>
 </html>
