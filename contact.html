@@ -1,10 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+  <meta charset="UTF-8" />
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      background-color: #0f1011;
+      color: #f0f0f0;
+      font-family: "Segoe UI", sans-serif;
+    }
+
+    .contact-hero {
+      padding: 80px 20px 30px;
+      text-align: center;
+    }
+
+    .contact-hero h2 {
+      font-size: 38px;
+      color: #00ffd5;
+      margin-bottom: 10px;
+    }
+
+    .contact-hero p {
+      color: #ccc;
+      font-size: 18px;
+      max-width: 600px;
+      margin: 0 auto 60px;
+    }
+
+    .contact-details {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-bottom: 60px;
+      flex-wrap: wrap;
+    }
+
+    .contact-box {
+      background-color: #1c1e20;
+      padding: 20px 30px;
+      border-radius: 12px;
+      max-width: 280px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .contact-box::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: radial-gradient(circle, rgba(0,255,213,0.2), transparent 70%);
+      filter: blur(12px);
+      z-index: -1;
+      border-radius: 12px;
+    }
+
+    .contact-box h4 {
+      margin: 0 0 5px;
+      color: #00ffd5;
+    }
+
+    .contact-card {
+      background-color: #1a1c1f;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 40px;
+      border-radius: 12px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .contact-card::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: radial-gradient(circle, rgba(0,255,213,0.15), transparent 60%);
+      filter: blur(14px);
+      z-index: -1;
+      border-radius: 12px;
+    }
+
+    .contact-card form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .contact-card input,
+    .contact-card textarea {
+      background-color: #101213;
+      color: #f0f0f0;
+      padding: 12px 16px;
+      border-radius: 6px;
+      border: 1px solid #333;
+      font-size: 16px;
+    }
+
+    .contact-card input:focus,
+    .contact-card textarea:focus {
+      border: 1px solid #00ffd5;
+      outline: none;
+    }
+
+    .contact-card label {
+      text-align: left;
+      color: #ccc;
+      font-size: 14px;
+    }
+
+    .send-btn {
+      background: linear-gradient(135deg, #ff8300, #ff9f3c);
+      border: none;
+      color: white;
+      padding: 14px 20px;
+      border-radius: 6px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0 0 20px rgba(255, 131, 0, 0.3);
+      transition: transform 0.2s, box-shadow 0.3s;
+    }
+
+    .send-btn:hover {
+      transform: scale(1.03);
+      box-shadow: 0 0 35px rgba(255, 131, 0, 0.6);
+    }
+  </style>
 </head>
 <body>
-$END$
+<header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="languages.html">Languages</a>
+    <a href="examples.html">Example Code</a>
+    <a href="exercises.html">Exercises</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main class="contact-hero">
+  <h2>Let’s Talk Code</h2>
+  <p>Drop us a line — whether it's questions, feedback, or just to say hi. We're here and we love to chat about building the web!</p>
+
+  <div class="contact-details">
+    <div class="contact-box">
+      <h4>📍 Location</h4>
+      <p>123 Code Ave<br>Webtown, Devland</p>
+    </div>
+    <div class="contact-box">
+      <h4>📞 Phone</h4>
+      <p>+1 (234) 567-8901<br>Mon–Fri, 9am–5pm</p>
+    </div>
+    <div class="contact-box">
+      <h4>✉️ Email</h4>
+      <p>hello@learn2code.com</p>
+    </div>
+  </div>
+
+  <div class="contact-card">
+    <form>
+      <div>
+        <label for="name">Name</label>
+        <input type="text" id="name" required />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" required />
+      </div>
+      <div>
+        <label for="message">Message</label>
+        <textarea id="message" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="send-btn">Send Message</button>
+    </form>
+  </div>
+</main>
 </body>
 </html>
