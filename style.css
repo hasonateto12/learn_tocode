@@ -23,16 +23,31 @@ nav a:hover {
     color: #00ffd5;
 }
 
-main.hero {
+/* Hero Section */
+.hero {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding: 60px 30px;
     gap: 40px;
 }
 
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start; /* Align image to the left */
+}
+
+.hero-image img {
+    width: 600px; /* Adjust width as needed */
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 255, 213, 0.3);
+}
+
 .hero-text {
+    flex: 1;
     max-width: 500px;
     text-align: left;
 }
@@ -63,13 +78,7 @@ main.hero {
     background-color: #ff9f3c;
 }
 
-.hero-image img {
-    width: 400px;
-    max-width: 100%;
-    border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0, 255, 213, 0.3);
-}
-
+/* Section Styling */
 .section {
     padding: 60px 30px;
     text-align: center;
@@ -101,6 +110,7 @@ main.hero {
     color: #fff;
 }
 
+/* Steps List */
 .steps {
     list-style: none;
     padding: 0;
@@ -116,6 +126,7 @@ main.hero {
     border-radius: 5px;
 }
 
+/* Form Styling */
 form {
     max-width: 500px;
     margin: 0 auto;
@@ -146,6 +157,7 @@ input[type="submit"]:hover {
     background-color: #ff9f3c;
 }
 
+/* General Styles */
 ul {
     line-height: 1.8;
 }
@@ -161,7 +173,7 @@ img {
     margin: 20px auto;
 }
 
-/* Language logo uniform layout */
+/* Language Cards */
 .lang-logo {
     width: 100%;
     height: 100%;
@@ -185,6 +197,7 @@ img {
     margin: 40px auto;
     text-align: center;
 }
+
 .lang-cards {
     display: flex;
     flex-wrap: wrap;
@@ -231,6 +244,7 @@ img {
     margin: 10px 0;
     color: #ff8300;
 }
+
 .lang-card {
     background-color: #2a2d31;
     padding: 30px 20px;
