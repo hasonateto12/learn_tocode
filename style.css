@@ -39,11 +39,24 @@ nav a:hover {
     justify-content: flex-start; /* Align image to the left */
 }
 
+.hero img:last-child {
+    width: 300px; /* Adjust the width as needed */
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgb(40, 114, 167);
+    display: block;
+    margin: auto; /* Centers the image */
+}
+
+
+
 .hero-image img {
     width: 600px; /* Adjust width as needed */
     max-width: 100%;
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0, 255, 213, 0.3);
+    margin: auto;
+    display: block;
 }
 
 .hero-text {
