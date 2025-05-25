@@ -37,13 +37,13 @@ This project is a simple educational website designed to help users learn how to
 
 
 ## 📚 Learning Goals
-Learn the basics of HTML, CSS, and JavaScript.
+-**Learn** the basics of HTML, CSS, and JavaScript.
 
-Understand code structure through examples.
+-**Understand** code structure through examples.
 
-Practice with exercises to strengthen your programming logic.
+-**Practice** with exercises to strengthen your programming logic.
 
-Explore multiple languages and choose what fits your goals.
+-**Explore** multiple languages and choose what fits your goals.
 
 
 
