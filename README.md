@@ -1,6 +1,6 @@
 # Learn to Code Website
 
-This project is a simple educational website designed to help users learn how to code in various programming languages. It features multiple pages including examples, exercises, and language-specific content aimed at beginners who want to explore coding in an interactive and visual way.
+**This project is a simple educational website designed to help users learn how to code in various programming languages. It features multiple pages including examples, exercises, and language-specific content aimed at beginners who want to explore coding in an interactive and visual way.**
 
 ## 🌐 Project Structure
 
@@ -37,24 +37,24 @@ This project is a simple educational website designed to help users learn how to
 
 
 ## 📚 Learning Goals
--**Learn** the basics of HTML, CSS, and JavaScript.
+-**Learn the basics of HTML, CSS, and JavaScript**.
 
--**Understand** code structure through examples.
+-**Understand code structure through examples**.
 
--**Practice** with exercises to strengthen your programming logic.
+-**Practice with exercises to strengthen your programming logic**.
 
--**Explore** multiple languages and choose what fits your goals.
+-**Explore multiple languages and choose what fits your goals**.
 
 
 
 ## 🛠️ Future Improvements
-Add JavaScript interactivity to enhance user experience.
+**Add JavaScript interactivity to enhance user experience.**
 
-Include a backend using Node.js or Python for storing user data or exercise results.
+**Include a backend using Node.js or Python for storing user data or exercise results.**
 
-Add a code editor in-browser using libraries like CodeMirror or Monaco.
+**Add a code editor in-browser using libraries like CodeMirror or Monaco.**
 
-Create user profiles for tracking progress.
+**Create user profiles for tracking progress.**
 
 
 ## 📸 Screenshots
@@ -62,4 +62,4 @@ Create user profiles for tracking progress.
 
 
 ## 🧑‍💻 Author
-MY GIT ACCOUNT – https://github.com/hasonateto12
+**MY GIT ACCOUNT – https://github.com/hasonateto12**
